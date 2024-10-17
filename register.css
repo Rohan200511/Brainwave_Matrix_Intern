@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+    
+}
+body{
+    background-image: url(form.jpeg);
+    background-size: cover;
+}
+.loginpage{
+    left: 50%;
+    top: 38%;
+    height:auto ;
+    width: auto;
+    background-color:skyblue;
+    margin-top: 50%;
+    margin-left: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
+    position: absolute;
+    color: rgb(29, 28, 28);
+    border: 1px solid black;
+    padding: 20px;
+}
+.login_text{
+   padding-left: 28%;
+    font-size:x-large;
+    margin-bottom: 5px;
+}
+hr{
+    margin-bottom:4px;
+    color: white;
+}
+input{
+    height: 25px;
+}
+.email,.password,.number{
+    width: 100%;
+}
+select{
+    height: 25px;
+}
+button{
+    height: 30px;
+    width:100px;
+    background-color: indianred;
+    margin-left: 32%;
+    border-radius: 4px;
+}
+button:hover{
+    background-color:rgb(164, 160, 160);
+    cursor: pointer;;
+
+}
